@@ -51,6 +51,9 @@ document.addEventListener("keypress", function onPress(event) {
 
 
 
-function playNotes(){
+function playNotes(notesArray){
+        for (let i=0; i<notesArray.length; i++) {
+                play(notesArray[i])
+        }
 
 }
