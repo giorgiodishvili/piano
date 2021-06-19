@@ -1,4 +1,4 @@
-body{
+body {
     width: 800px;
     height: 200px;
     display: flex;
@@ -35,7 +35,7 @@ body{
     background-color: #474747;
     color: white;
     width: 8%;
-    margin: 0 -4%
+    margin: 0 -4%;
 }
 
 .white {

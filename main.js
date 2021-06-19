@@ -18,3 +18,39 @@ function play(keyName) {
     let audio = new Audio(arr.get(keyName));
     audio.play();
 }
+
+
+document.addEventListener("keypress", function onPress(event) {
+        console.log(event.key)
+        if (event.key === "a") {
+                play('C')
+        }else if (event.key === "w") {
+                play('C#')
+        }else if (event.key === "s") {
+                play('D')
+        }else if (event.key === "e") {
+                play('D#')
+        }else if (event.key === "d") {
+                play('E')
+        }else if (event.key === "f") {
+                play('F')
+        }else if (event.key === "t") {
+                play('F#')
+        }else if (event.key === "g") {
+                play('G')
+        }else if (event.key === "y") {
+                play('G#')
+        }else if (event.key === "h") {
+                play('A')
+        }else if (event.key === "u") {
+                play('A#')
+        }else if (event.key === "j") {
+                play('B')
+        }
+});
+
+
+
+function playNotes(){
+
+}
